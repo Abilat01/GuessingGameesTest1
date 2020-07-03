@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(Intent.EXTRA_TEXT, messageText);
         String chosenTitle = getString(R.string.chooser);
         Intent chosenIntent = Intent.createChooser(intent, chosenTitle);
-        startActivity(chosenIntent);
+        startActivity(chosenIntent);//
 
     }
 }
